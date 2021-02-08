@@ -1,0 +1,12 @@
+{
+  "config": {
+    "title": "UV Share Market",
+    "theme": "success",
+    "alt": "Yuvraj Patil",
+    "primaryWebsite": "http://yuvrajpatil.com",
+    "logo": {
+      "logo": "logo192.png",
+      "width": "40px"
+    }
+  }
+}

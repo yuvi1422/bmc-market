@@ -1,0 +1,14 @@
+{
+  "config": {
+    "apis": {
+      "dashboard": {
+        "url": "https://demo1926272.mockable.io/getInvestments"
+      },
+      "stocks": {
+        "url": "http://api.marketstack.com/v1/eod?access_key=a827150067d1a8d83c3a0b7fee767316&symbols=AAPL"
+      }
+    },
+    "tableKeys": ["symbol", "close", "volume", "exchange"],
+    "tableHeaders": ["#", "Name", "Price", "Volumn", "Exchange"]
+  }
+}

@@ -1,0 +1,64 @@
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-weight: 600;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.toolbar.primary {
+  background-color: var(--color-primary);
+}
+.toolbar.success {
+  background-color: var(--color-success);
+}
+.toolbar.info {
+  background-color: var(--color-info);
+}
+.toolbar.warning {
+  background-color: var(--color-warning);
+}
+.toolbar.danger {
+  background-color: var(--color-danger);
+}
+.toolbar.inverse {
+  background-color: var(--color-inverse);
+}
+.toolbar.faded {
+  background-color: var(--color-faded);
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar .logo {
+  margin: 0 16px;
+}
+
+.toolbar .logo:hover {
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  margin-top: 82px;
+  padding: 0 16px;
+  flex-direction: column;
+}
+
+
+.uv-header-container {
+  margin-top: 5rem;
+}
+@media screen and (max-width: 767px) {
+
+}
